@@ -1,19 +1,20 @@
 import { Route, Routes, Link } from "react-router-dom";
-import Inicio from "./componets/Inicio";
-import Contactos from "./componets/Contactos";
-import Proyectos from "./componets/Proyectos";
-import Landig from "./componets/Landig";
+import Contactos from "./componets/ContactosPag";
+import LandigPag from "./componets/LandigPag";
+import CatalogoPag from "./componets/CatalogoPag";
+import NosotrosPag from "./componets/NosotrosPag";
+
 
 function App() {
   return (
-    <>
+    <div className="container-fluid">
       <Routes>
-        <Route path="/" element={<Inicio />} />
+        <Route path="/" element={<LandigPag />} />
+        <Route path="/catalogo" element={<CatalogoPag/>} />
         <Route path="/contactos" element={<Contactos />} />
-        <Route path="/proyectos" element={<Proyectos />} />
-        <Route path="/landig" element={<Landig />} />
+        <Route path="/nosotros" element={<NosotrosPag/>} />
       </Routes>
-    </>
+    </div>
   );
 }
 export default App;

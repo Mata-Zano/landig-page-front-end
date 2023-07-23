@@ -1,10 +1,10 @@
 import { Route, Routes, Link } from "react-router-dom";
-function Landig() {
+function ContactosPag() {
   return (
     <>
-      <h1>Bienvenidos a Landig</h1>
+      <h1>Bienvenidos a Contactos</h1>
       <Link to={"/"}>Devolverse al inicio</Link>
     </>
   );
 }
-export default Landig;
+export default ContactosPag;

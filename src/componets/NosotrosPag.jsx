@@ -1,10 +1,11 @@
 import { Route, Routes, Link } from "react-router-dom";
-function Contactos() {
+function NosotrosPag() {
   return (
     <>
-      <h1>Bienvenidos a Contactos</h1>
+      :_ZX
+      <h1>Bienvenidos a Nosotros</h1>
       <Link to={"/"}>Devolverse al inicio</Link>
     </>
   );
 }
-export default Contactos;
+export default NosotrosPag;
